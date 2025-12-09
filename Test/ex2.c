@@ -25,11 +25,6 @@ bool larger(Element e1, Element e2) {
     return e1.priority > e2.priority;
 }
 
-void enqueueFirst(Queue *q, Element e) {
-    q->data[0] = e;
-    q->size++;
-}
-
 bool isEmpty(Queue *q) {
     return q->size == 0;
 }
