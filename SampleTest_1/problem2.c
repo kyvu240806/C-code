@@ -62,9 +62,9 @@ void conv(float n) {
     float f = n - i;
     convI(i);
     printf(".");
-    convF(f,4);
+    convF(f,10);
 }
 
 int main() {
-    conv(3.7);
+    conv(4.6);
 }
